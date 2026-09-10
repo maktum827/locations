@@ -33,7 +33,7 @@
   "author": "Noholi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maktum827/locations.git"
+    "url": "git+https://github.com/maktum827/locations.git"
   },
   "bugs": {
     "url": "https://github.com/maktum827/locations/issues"
