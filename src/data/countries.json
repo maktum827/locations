@@ -1,0 +1,12 @@
+[
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "native_name": "বাংলাদেশ",
+    "phone": "880",
+    "currency_code": "BDT",
+    "symbol": "৳",
+    "timezone": "Asia/Dhaka",
+    "utcOffset": "+06:00"
+  }
+]

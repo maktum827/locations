@@ -1,20 +1,16 @@
 import locations from "../data/bd/locations.json" with { type: "json" };
 
-import type {
-  Country,
-  Division,
-  District,
-  SubDistrict,
-  Union,
-} from "../types/index.js";
+import { countriesData } from "../data/countries.js";
+
+import type { Division, District, SubDistrict, Union } from "../types/index.js";
 
 import type { CountryData } from "./types.js";
 
-const country: Country = {
-  code: "BD",
-  name: "Bangladesh",
-  native_name: "বাংলাদেশ",
-};
+const country = countriesData.find((country) => country.code === "BD");
+
+if (!country) {
+  throw new Error("Bangladesh (BD) is not defined in countries.json");
+}
 
 const divisions = locations as Division[];
 

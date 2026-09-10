@@ -3,7 +3,7 @@ import type { CountryData } from "./types.js";
 import { bangladesh } from "./bd.js";
 
 const countryRegistry = new Map<string, CountryData>([
-  [bangladesh.country.code, bangladesh],
+  [bangladesh.country.code.toUpperCase(), bangladesh],
 ]);
 
 export function getCountryData(countryCode: string): CountryData | undefined {

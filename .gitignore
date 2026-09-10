@@ -4,6 +4,8 @@ node_modules/
 # Build output
 dist/
 
+noholi-locations-1.0.0.tgz
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
