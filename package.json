@@ -1,6 +1,6 @@
 {
   "name": "@noholi/locations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable geographic location data for Noholi applications and other JavaScript/TypeScript projects.",
   "type": "module",
   "main": "./dist/index.js",
